@@ -1,0 +1,72 @@
+/* Style the form container */
+html * {
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+}
+/* Style the form container */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+/* Style the legend (question text) */
+legend {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style error message */
+.error-message {
+    color: #FF0000;
+    margin: 10px 0;
+}
+
+/* Style choices container */
+.choices {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style each choice */
+.choice {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd; /* Add border around choices */
+    border-radius: 5px; /* Round the corners of the choices */
+    padding: 10px; /* Add padding inside the choices */
+    padding-left: 0px;
+    text-align: center; /* Center the text within the choices */
+}
+
+/* Style radio buttons */
+input[type="radio"] {
+    margin-right: 10px;
+    margin-top: 2px; /* Move checkboxes closer to text */
+}
+
+/* Style labels for choices */
+label {
+    font-size: 16px;
+    flex: 1; /* Equal width for all choices */
+    text-align: center; /* Center the text within the choices */
+}
+
+/* Style the vote button */
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}

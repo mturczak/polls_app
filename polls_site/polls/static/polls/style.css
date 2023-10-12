@@ -1,0 +1,24 @@
+html * {
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+}
+body {
+    background-color: rgb(40, 40, 40);
+}
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
+
+li a {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 5px;
+    color:aliceblue
+}
